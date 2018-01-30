@@ -1,7 +1,7 @@
 from functools import reduce
 
 
-class Solution(object):
+class Solution:
     """
     https://leetcode.com/problems/find-the-difference/
 

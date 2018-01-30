@@ -1,7 +1,7 @@
 from itertools import zip_longest
 
 
-class Solution(object):
+class Solution:
     """
     https://leetcode.com/problems/add-strings/
 

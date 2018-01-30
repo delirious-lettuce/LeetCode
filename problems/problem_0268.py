@@ -1,4 +1,4 @@
-class Solution(object):
+class Solution:
     """
     https://leetcode.com/problems/missing-number/
 
