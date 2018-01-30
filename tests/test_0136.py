@@ -1,11 +1,6 @@
 import pytest
 
-from problems import problem_0136
-
-
-@pytest.fixture(scope='module')
-def solution():
-    return problem_0136.Solution()
+from problems.problem_0136 import Solution
 
 
 @pytest.mark.parametrize('test_input, expected', (
@@ -13,5 +8,5 @@ def solution():
     ([1, 2, 1], 2),
     ([1, 1, 2, 2, 3], 3)
 ))
-def test_single_number(test_input, expected, solution):
-    assert solution.singleNumber(test_input) == expected
+def test_single_number(test_input, expected):
+    assert Solution.singleNumber(test_input) == expected
