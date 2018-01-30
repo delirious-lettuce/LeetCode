@@ -13,5 +13,5 @@ def solution():
     ([1, 2, 1], 2),
     ([1, 1, 2, 2, 3], 3)
 ))
-def test_(test_input, expected, solution):
+def test_single_number(test_input, expected, solution):
     assert solution.singleNumber(test_input) == expected
